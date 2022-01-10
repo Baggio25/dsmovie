@@ -1,8 +1,12 @@
+import Navbar from './components/Navbar';
 
 function App() {
-  return (
-    <h1>DSMovie</h1>
-  );
+	return (
+		<>
+			<Navbar />
+			<p>DSMovie</p>
+		</>
+	);
 }
 
 export default App;
