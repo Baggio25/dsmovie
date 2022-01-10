@@ -1,9 +1,10 @@
+import Pagination from 'components/Pagination';
 import './styles.css';
 
 const Listing = () => {
 	return (
 		<>
-			<h5>Listing</h5>
+			<Pagination />
 		</>
 	);
 };
